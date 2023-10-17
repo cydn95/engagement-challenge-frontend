@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --color-dark: #272828;
+    --color-text-primary: #f1f2f0;
+    --color-white: #fff;
+
+    --font-base: 'Exo';
+  }
+
+  body {
+    background-color: var(--color-dark);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-base);
+  }
+
+  body * {
+    box-sizing: border-box;
+  }
+}

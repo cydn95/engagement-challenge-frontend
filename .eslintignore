@@ -1,0 +1,6 @@
+.next
+build
+node_modules
+next.config.js
+services/emersa/api.ts
+**/*.js

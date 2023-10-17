@@ -1,0 +1,19 @@
+.input {
+  border: 1px solid #f1f2f0;
+  border-radius: 5px;
+  color: #000;
+  background: #fff;
+  outline: none;
+  padding: 0px 8px;
+  height: 40px;
+
+  @apply border border-solid border-[#f1f2f0] bg-white text-black outline-none px-2 h-10;
+
+  &:disabled {
+    @apply text-[#565656] cursor-not-allowed;
+  }
+
+  &.fullWidth {
+    @apply w-full;
+  }
+}
